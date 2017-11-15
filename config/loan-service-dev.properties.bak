@@ -38,6 +38,11 @@ ysb.config[0].contractId=1120161018154416001
 ysb.config[0].key=123456abc
 ysb.config[0].unspay=http://180.166.114.155:8081/unspay-external/
 
+
+spring.application.name=loan-service
+spring.cloud.config.label=master
+spring.cloud.config.profile=dev
+server.port=8012
 feign.hystrix.enabled=true
 
 spring.cloud.stream.instanceCount=1
